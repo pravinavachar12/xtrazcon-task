@@ -73,7 +73,7 @@ A modern, responsive company website built using **React + Vite**, showcasing se
 ## 📦 Installation & Setup
 
 # Clone the repository
-git clone https://github.com/your-username/xtrazcon-technology.git
+git clone https://github.com/pravinavachar12/xtrazcon-task.git
 
 # Navigate into project
 cd xtrazcon-technology

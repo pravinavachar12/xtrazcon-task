@@ -1,7 +1,8 @@
 # 🌐 XtrazCon Technology Website
 
-- Live demo : Domain :  https://xtrazcon-task.vercel.app/
-              Deployment : https://vercel.com/pravin-avachars-projects/xtrazcon-task/FmxsHXeJeXbxcZ4Hor8C6cfHJzua
+## Live demo 
+- Domain :  https://xtrazcon-task.vercel.app/
+- Deployment : https://vercel.com/pravin-avachars-projects/xtrazcon-task/FmxsHXeJeXbxcZ4Hor8C6cfHJzua
 
 A modern, responsive company website built using **React + Vite**, showcasing services, company details, a rule-based chatbot, and a personal info page  all without using any backend.
 

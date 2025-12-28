@@ -1,0 +1,442 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #111;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  height: 40px;
+}
+
+.navbar a {
+ color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.page {
+  padding: 40px;
+}
+
+.home-desc {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.center-text {
+  text-align: center;
+}
+
+/* Chatbot */
+/* CHATBOT */
+.chat-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  z-index: 1000;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.chat-header {
+  background: #111;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.chat-body {
+  padding: 10px;
+  height: 220px;
+  overflow-y: auto;
+}
+
+.chat-msg {
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.chat-msg.bot {
+  background: #f1f1f1;
+  text-align: left;
+}
+
+.chat-msg.user {
+  background: #007bff;
+  color: white;
+  text-align: right;
+}
+
+.chat-footer {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.chat-footer input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.chat-footer button {
+  border: none;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+/*servicessssssssss*/
+.services {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.service-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+}
+
+/* WHY CHOOSE US */
+.why-choose {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.why-desc {
+  max-width: 900px;
+  margin: 15px auto 40px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.why-card {
+  padding: 25px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+}
+
+.why-card img {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.why-card h3 {
+  margin-bottom: 10px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #111, #333);
+  color: white;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SERVICES PREVIEW */
+.services-preview {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* CTA */
+.cta {
+  margin-top: 80px;
+  padding: 60px 20px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 30px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+/* FOOTER */
+.footer {
+  background: #111;
+  color: #ccc;
+  padding: 60px 30px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-col a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+
+/* ABOUT PAGE */
+.about-page {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-intro {
+  text-align: center;
+  margin: 20px auto 50px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  line-height: 1.6;
+}
+
+.about-list {
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+/* CONTACT PAGE */
+.contact-page {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contact-intro {
+  text-align: center;
+  margin: 15px auto 50px;
+  font-size: 18px;
+  max-width: 700px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* LEFT SIDE */
+.contact-info {
+  background: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* INFO PAGE */
+.info-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.profile-pic img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
+
+.profile-details h2 {
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+
+

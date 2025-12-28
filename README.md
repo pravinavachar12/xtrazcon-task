@@ -92,6 +92,6 @@ Connect with me on
 - GitHub: [@pravinavachar12](https://github.com/pravinavachar12)
 
 ## 📃 License
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [Apache](LICENSE).
 
 
